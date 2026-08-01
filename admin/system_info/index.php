@@ -128,7 +128,7 @@
             dataType:"json",
             error:err=>{
                 console.log(err)
-                alert_toast("An error occured while deleting an Image","error");
+                alert_toast("An error occurred while deleting an Image","error");
                 end_loader()
             },
             success:function(resp){
@@ -140,7 +140,7 @@
                     alert_toast("Image Successfully Deleted","success");
                 }else{
                     console.log(resp)
-                    alert_toast("An error occured while deleting an Image","error");
+                    alert_toast("An error occurred while deleting an Image","error");
                 }
                 end_loader()
             }

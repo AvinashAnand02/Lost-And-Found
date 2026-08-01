@@ -134,7 +134,7 @@ $(document).ready(function() {
                     $('#msg').html('<div class="alert alert-danger err_msg">' + resp.msg + '</div>')
                     $("html, body").animate({ scrollTop: 0 }, "fast");
                 } else {
-                    $('#msg').html('<div class="alert alert-danger err_msg">An Error occured</div>')
+                    $('#msg').html('<div class="alert alert-danger err_msg">An Error occurred</div>')
                 }
                 end_loader()
             }

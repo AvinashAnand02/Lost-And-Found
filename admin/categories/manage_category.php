@@ -68,7 +68,7 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 					dataType: 'json',
 					error:err=>{
 						console.log(err)
-						alert_toast("An error occured",'error');
+						alert_toast("An error occurred",'error');
 						end_loader();
 					},
 					success:function(resp){
@@ -82,7 +82,7 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 								$("html, body").scrollTop(0);
 								end_loader()
 						}else{
-							alert_toast("An error occured",'error');
+							alert_toast("An error occurred",'error');
 							end_loader();
 							console.log(resp)
 						}

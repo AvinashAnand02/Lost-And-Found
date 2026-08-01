@@ -69,7 +69,7 @@ $(document).ready(function(){
                 dataType: 'json',
                 error:err=>{
                     console.log(err)
-                    alert_toast("An error occured",'error');
+                    alert_toast("An error occurred",'error');
                     end_loader();
                 },
                 success:function(resp){
@@ -83,7 +83,7 @@ $(document).ready(function(){
                             $("html, body").scrollTop(0);
                             end_loader()
                     }else{
-                        alert_toast("An error occured",'error');
+                        alert_toast("An error occurred",'error');
                         end_loader();
                         console.log(resp)
                     }

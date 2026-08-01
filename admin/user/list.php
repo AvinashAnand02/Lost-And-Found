@@ -101,14 +101,14 @@
 			data:{id: $id},
 			error:err=>{
 				console.log(err)
-				alert_toast("An error occured.",'error');
+				alert_toast("An error occurred.",'error');
 				end_loader();
 			},
 			success:function(resp){
 				if(resp == 1){
 					location.reload();
 				}else{
-					alert_toast("An error occured.",'error');
+					alert_toast("An error occurred.",'error');
 					end_loader();
 				}
 			}

@@ -36,7 +36,7 @@ if(is_file(base_app.'pages/about.html')){
 					dataType: 'json',
 					error:err=>{
 						console.log(err)
-						alert_toast("An error occured",'error');
+						alert_toast("An error occurred",'error');
 						end_loader();
 					},
 					success:function(resp){
@@ -50,7 +50,7 @@ if(is_file(base_app.'pages/about.html')){
 								$("html, body").scrollTop(0);
 								end_loader()
 						}else{
-							alert_toast("An error occured",'danger');
+							alert_toast("An error occurred",'danger');
 							end_loader();
 						}
 					}
